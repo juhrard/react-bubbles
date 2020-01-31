@@ -31,7 +31,6 @@ function App() {
           <PrivateRoute path="/protected" component={BubblePage} />
           <Container className={classes.Container}>
             <Route exact path="/" component={Login} />
-            <Route path="/login" component={Login} />
           </Container>
         </Switch>
       </div>
