@@ -30,9 +30,8 @@ function App() {
         <Switch>
           <PrivateRoute path="/protected" component={BubblePage} />
           <Container className={classes.Container}>
-            <Route path="/login" component={Login} />
             <Route exact path="/" component={Login} />
-            <Route component={Login} />
+            <Route path="/login" component={Login} />
           </Container>
         </Switch>
       </div>
